@@ -24,6 +24,10 @@ function search() {
   // طبّق الخطوة 7 أسفل هذا الكومنت
   let filteredGrades = grades.filter((x) => x == inputValue);
   console.log(filteredGrades);
+
+  if (inputValue != filteredGrades) {
+    console.log("الدرجة غير موجودة");
+  }
   
 }
 
